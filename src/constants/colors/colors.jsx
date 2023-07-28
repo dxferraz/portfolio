@@ -1,11 +1,12 @@
-export const Colors = {
-    gray: "#2e2e2e",
-    light_gray: "#797979",
-    white: "#d6d6d6",
-    yellow: "#e5b567",
-    green: "#b4d273",
-    orange: "#e87d3e",
-    purple: "#9e86c8",
-    pink: "#b05279",
-    blue: "#6c99bb"
-};
+const Colors = {
+    dark_grey: "#333333",
+    light_grey: "#888888",
+    dark_blue: "#032B43",
+    light_blue: "#3F88C5",
+    white: "#f0f0f0",
+    yellow: "#FFBA08",
+    dark_green: "#136F63",
+    red: "#D00000",
+}
+
+export default Colors;

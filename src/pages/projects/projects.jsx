@@ -1,8 +1,11 @@
 import React from 'react';
+import AnimatedPage from '../../animations/transitions/PageTransition';
 
 const ProjectsPage = () => {
   return (
-    <div>Projects</div>
+    <AnimatedPage>
+      <div>Projects</div>
+    </AnimatedPage>
   )
 }
 

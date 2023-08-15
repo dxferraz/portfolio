@@ -1,8 +1,11 @@
 import React from 'react';
+import AnimatedPage from '../../animations/transitions/PageTransition';
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <AnimatedPage>
+      <div>ContactPage</div>
+    </AnimatedPage>
   )
 }
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { styled } from "styled-components";
-import Colors from "../../constants/colors/colors.jsx";
-import Logo from "./menu-components/logo/logo.jsx";
-import Menu from "./menu-components/menu/menu.jsx";
+import Colors from "../../constants/colors/Colors.jsx";
+import Logo from "./menu-components/logo/Logo.jsx";
+import Menu from "./menu-components/menu/Menu.jsx";
 
 const HeaderContainer = styled.header`
     width: 100;
@@ -21,7 +21,7 @@ function Header() {
             <Logo />
             <Menu />
             <div>
-                
+
             </div>
         </HeaderContainer>
     );

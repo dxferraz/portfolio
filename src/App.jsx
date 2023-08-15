@@ -1,20 +1,30 @@
-import React from "react";
-import { styled } from "styled-components";
-import Colors from "./constants/colors/colors";
-import Header from "./components/header/header";
-import { Outlet } from "react-router-dom";
-import Footer from "./components/footer/footer";
+import React from "react"
+import { styled } from "styled-components"
+import { AnimatePresence } from "framer-motion"
+import { Outlet } from "react-router-dom"
+
+import Header from "./components/header/Header"
+import Footer from "./components/footer/Footer"
+import Colors from "./constants/colors/Colors"
 
 const AppContainer = styled.div`
   color: ${Colors.white};
-`;
+  background-color: ${Colors.black};
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+`
 
 export default function App() {
   return (
     <AppContainer>
       <Header />
-      <Outlet />
-      <Footer />
+      <AnimatePresence>
+        <Outlet />
+      </AnimatePresence>
+      {/* <Footer /> */}
     </AppContainer>
   )
 }

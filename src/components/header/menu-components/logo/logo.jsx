@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
-import Colors from "../../../../constants/colors/colors";
+import Colors from "../../../../constants/colors/Colors";
 
 const LogoContainer = styled.div`
     width: 150px;

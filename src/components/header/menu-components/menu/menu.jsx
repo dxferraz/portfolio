@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "styled-components";
 import { Link } from "react-router-dom";
-import Colors from "../../../../constants/colors/colors";
+import Colors from "../../../../constants/colors/Colors";
 
 const MenuContainer = styled.div`
     display: flex;
@@ -33,6 +33,7 @@ function Menu() {
         <MenuContainer>
             <MenuList>
                 <Link to="/"><MenuItem>Início</MenuItem></Link>
+                <Link to="/habilidades"><MenuItem>Habilidades</MenuItem></Link>
                 <Link to="/projetos"><MenuItem>Projetos</MenuItem></Link>
                 <Link to="/contato"><MenuItem>Contato</MenuItem></Link>
             </MenuList>

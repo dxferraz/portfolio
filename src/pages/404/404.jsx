@@ -1,9 +1,12 @@
-import React from 'react';
+import React from 'react'
+import AnimatedPage from '../../animations/transitions/PageTransition'
 
 function ErrorPage() {
   return (
-    <div>ErrorPage</div>
+    <AnimatedPage>
+      <div>ErrorPage</div>
+    </AnimatedPage>
   )
 }
 
-export default ErrorPage;
+export default ErrorPage

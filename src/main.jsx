@@ -5,18 +5,20 @@ import App from './App';
 
 // pages imports
 import HomePage from './pages/home/home';
-import ContactPage from './pages/contact/contact';
-import ProjectsPage from './pages/projects/projects';
+import ContactPage from './pages/contact/Contact';
+import ProjectsPage from './pages/projects/Projects';
 import ErrorPage from './pages/404/404';
+import SkillsPage from './pages/skills/Skills';
 
 // styles
-import './normalize.css';
+import './normalize.css'
+
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />,
+    //errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
@@ -29,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/projetos',
         element: <ProjectsPage />,
+      },
+      {
+        path: '/habilidades',
+        element: <SkillsPage />,
       }
     ]
   }

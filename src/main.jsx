@@ -13,7 +13,6 @@ import SkillsPage from './pages/skills/Skills';
 // styles
 import './normalize.css'
 
-
 const router = createBrowserRouter([
   {
     path: '/',

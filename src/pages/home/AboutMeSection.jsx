@@ -9,12 +9,24 @@ const AboutMeSectionContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 1080px;
+`
+
+const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
 `
 
 function AboutMeSection() {
   return (
     <AboutMeSectionContainer>
-      <h1>About Me</h1>
+      <ContentContainer>
+        <h1>Sobre mim</h1>
+        <p>Sou um desenvolvedor front-end com [X] anos de experiência, especializado em criar interfaces responsivas e interativas. Minha jornada começou com um amor pela web e cresceu para se tornar uma paixão por moldar a forma como as pessoas interagem com a tecnologia.</p>
+      </ContentContainer>
     </AboutMeSectionContainer>
   )
 }

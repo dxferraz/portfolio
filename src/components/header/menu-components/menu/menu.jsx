@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Colors from "../../../../constants/colors/Colors";
 
 const MenuContainer = styled.div`
+    width: 50%;
     display: flex;
 `;
 

@@ -18,42 +18,34 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 
 2. Clone este repositório:
 
+```
 git clone https://github.com/seu-usuario/seu-portfolio.git
-
-arduino
-Copy code
+```
 
 3. Navegue para o diretório do projeto:
 
+```
 cd seu-portfolio
-
-csharp
-Copy code
+```
 
 4. Instale as dependências:
 
+```
 npm install
-
-markdown
-Copy code
+```
 
 5. Inicie o servidor de desenvolvimento:
 
+```
 npm run dev
+```
 
-yaml
-Copy code
-
-6. O site estará disponível em http://localhost:3000.
+6. O site estará disponível em http://localhost:5173.
 
 ## Contato
 
-Se você quiser entrar em contato comigo para oportunidades de colaboração, projetos ou qualquer outra dúvida, fique à vontade para me contatar através do seguinte e-mail: seu@email.com.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+Se você quiser entrar em contato comigo para oportunidades de colaboração, projetos ou qualquer outra dúvida, fique à vontade para me contatar através do seguinte e-mail: dxferraz@gmail.com.
 
 ---
 
-**[Link para o Site ao Vivo](https://seu-site.netlify.app/)**
+**[Link para o Site ao Vivo](https://dxferraz.com/)**

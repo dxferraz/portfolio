@@ -1,6 +1,9 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import Colors from '../../constants/colors/Colors'
+import Skills from '../../components/skills/Skills'
+import Title from '../../components/title/Title'
+import MediumText from '../../components/text-medium/MediumText'
 
 const AboutMeSectionContainer = styled.div`
   background-color: ${Colors.dark_blue};
@@ -9,7 +12,7 @@ const AboutMeSectionContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 1080px;
+  height: 700px;
 `
 
 const ContentContainer = styled.div`
@@ -24,8 +27,10 @@ function AboutMeSection() {
   return (
     <AboutMeSectionContainer>
       <ContentContainer>
-        <h1>Sobre mim</h1>
-        <p>Sou um desenvolvedor front-end com [X] anos de experiência, especializado em criar interfaces responsivas e interativas. Minha jornada começou com um amor pela web e cresceu para se tornar uma paixão por moldar a forma como as pessoas interagem com a tecnologia.</p>
+        <Title>Sobre mim</Title>
+        <MediumText>HTML, CSS, JavaScript são a minha base, e estou sempre explorando as últimas tendências e frameworks, como [listar os frameworks que você domina]. Minha abordagem é manter um equilíbrio entre a estabilidade comprovada e a inovação.</MediumText>
+        <br/>
+        <Skills/>
       </ContentContainer>
     </AboutMeSectionContainer>
   )

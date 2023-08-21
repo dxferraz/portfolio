@@ -60,6 +60,10 @@ const ProfileImage = styled.img`
     height: 400px;
     object-fit: cover;
     object-position: -20px 0px;
+    transition: 0.5s;
+    &:hover {
+        transform: scale(1.1);
+    }
 `
 
 function HeroSection() {

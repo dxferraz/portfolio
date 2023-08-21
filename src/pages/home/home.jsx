@@ -5,6 +5,8 @@ import { styled } from "styled-components"
 // Sections imports
 import HeroSection from "./HeroSection";
 import AboutMeSection from "./AboutMeSection"
+import LevelsSection from "./LevelsSection";
+import WhatsAppButton from "../../components/WhatsApp Button/WhatsAppButton";
 
 const HomeContainer = styled.div`
     display: flex;
@@ -14,14 +16,14 @@ const HomeContainer = styled.div`
     width: auto;
 `
 
-
-
 function HomePage() {
     return (
         <AnimatedPage>
+            <WhatsAppButton/>
             <HomeContainer>
                 <HeroSection/>
-                <AboutMeSection/>
+                <AboutMeSection />
+                <LevelsSection/>
             </HomeContainer>
         </AnimatedPage>
     );

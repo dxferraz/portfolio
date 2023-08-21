@@ -20,49 +20,53 @@ import ReactIcon from '../../assets/images/icons/ReactIcon'
 import VSCodeIcon from '../../assets/images/icons/VSCodeIcon'
 import WordpressIcon from '../../assets/images/icons/WordpressIcon'
 import BehanceIcon from '../../assets/images/icons/BehanceIcon'
+import WhatsAppIcon from '../../assets/images/icons/WhatsAppIcon'
 
-function Icon({ name }) {
+function Icon({ name, width }) {
     if (name == "CSS3") {
-        return <CSS3Icon />
+        return <CSS3Icon style={"width: " + width} />
     } else if (name == "Dart") {
-        return <DartIcon />
+        return <DartIcon style={"width: " + width} />
     } else if (name == "Figma") {
-        return <FigmaIcon />
+        return <FigmaIcon style={"width: " + width} />
     } else if (name == "Flutter") {
-        return <FlutterIcon />
+        return <FlutterIcon style={"width: " + width} />
     } else if (name == "Github") {
-        return <GithubIcon />
+        return <GithubIcon style={"width: " + width} />
     } else if (name == "Git") {
-        return <GitIcon />
+        return <GitIcon style={"width: " + width} />
     } else if (name == "Gitlab") {
-        return <GitlabIcon />
+        return <GitlabIcon style={"width: " + width} />
     } else if (name == "HTML5") {
-        return <HTML5Icon />
+        return <HTML5Icon style={"width: " + width} />
     } else if (name == "Illustrator") {
-        return <IllustratorIcon />
+        return <IllustratorIcon style={"width: " + width} />
     } else if (name == "Javascript") {
-        return <JavascriptIcon />
+        return <JavascriptIcon style={"width: " + width} />
     } else if (name == "Jira") {
-        return <JiraIcon />
+        return <JiraIcon style={"width: " + width} />
     } else if (name == "Linkedin") {
-        return <LinkedinIcon />
+        return <LinkedinIcon style={"width: " + width} />
     } else if (name == "Linux") {
-        return <LinuxIcon />
+        return <LinuxIcon style={"width: " + width} />
     } else if (name == "Next") {
-        return <NextIcon />
+        return <NextIcon style={"width: " + width} />
     } else if (name == "NPM") {
-        return <NPMIcon />
+        return <NPMIcon style={"width: " + width} />
     } else if (name == "Photoshop") {
-        return <PhotoshopIcon />
+        return <PhotoshopIcon style={"width: " + width} />
     } else if (name == "React") {
-        return <ReactIcon />
+        return <ReactIcon style={"width: " + width} />
     } else if (name == "VSCode") {
-        return <VSCodeIcon />
+        return <VSCodeIcon style={"width: " + width} />
     } else if (name == "Wordpress") {
-        return <WordpressIcon />
+        return <WordpressIcon style={"width: " + width} />
     } else if (name == "Behance") {
-        return <BehanceIcon />
+        return <BehanceIcon style={"width: " + width} />
+    } else if (name == "WhatsApp") {
+        return <WhatsAppIcon style={"width: " + width} />
     } else {
+        print("O ícone desejado não foi encontrado");
         return <div />
     }
 }

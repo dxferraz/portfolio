@@ -19,13 +19,13 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
 2. Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/seu-portfolio.git
+git clone https://github.com/dxferraz/portfolio.git dxferraz-portfolio
 ```
 
 3. Navegue para o diretório do projeto:
 
 ```
-cd seu-portfolio
+cd dxferraz-portfolio
 ```
 
 4. Instale as dependências:

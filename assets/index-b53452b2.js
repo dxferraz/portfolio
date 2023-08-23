@@ -345,7 +345,7 @@ Error generating stack: `+o.message+`
     &:hover {
         transform: scale(1.1);
     }
-`;function Zj(){const{t:e}=U3();return s.jsxs(Kj,{children:[s.jsxs(Gj,{children:[s.jsx(vs,{children:s.jsx(Yj,{children:e("frontEndDeveloper")})}),s.jsx(vs,{delay:.2,children:s.jsx(Qj,{children:e("iAmDanielFerraz")})})]}),s.jsx(Xj,{children:s.jsx(vs,{delay:.4,children:s.jsx(Jj,{src:"src\\assets\\images\\JPG\\Montagem escritório.jpg",alt:"Daniel Ferraz"})})})]})}const C2=V.h2`
+`;function Zj(){const{t:e}=U3();return s.jsxs(Kj,{children:[s.jsxs(Gj,{children:[s.jsx(vs,{children:s.jsx(Yj,{children:e("frontEndDeveloper")})}),s.jsx(vs,{delay:.2,children:s.jsx(Qj,{children:e("iAmDanielFerraz")})})]}),s.jsx(Xj,{children:s.jsx(vs,{delay:.4,children:s.jsx(Jj,{src:"src/assets/images/JPG/Montagem escritório.jpg",alt:"Daniel Ferraz"})})})]})}const C2=V.h2`
     font-size: 30px;
     font-family: Montserrat;
     font-weight: 600;

@@ -4,6 +4,7 @@ import Colors from '../../constants/colors/Colors'
 import Skills from '../../components/skills/Skills'
 import Title from '../../components/title/Title'
 import MediumText from '../../components/text-medium/MediumText'
+import { useTranslation } from 'react-i18next'
 
 const AboutMeSectionContainer = styled.div`
   background-color: ${Colors.dark_blue};
@@ -24,11 +25,12 @@ const ContentContainer = styled.div`
 `
 
 function AboutMeSection() {
+  const {t} = useTranslation()
   return (
     <AboutMeSectionContainer>
       <ContentContainer>
-        <Title>Sobre mim</Title>
-        <MediumText>HTML, CSS, JavaScript são a minha base, e estou sempre explorando as últimas tendências e frameworks, como [listar os frameworks que você domina]. Minha abordagem é manter um equilíbrio entre a estabilidade comprovada e a inovação.</MediumText>
+        <Title>{t("aboutMe")}</Title>
+        <MediumText>{t("aboutMeDescription")}</MediumText>
         <br/>
         <Skills/>
       </ContentContainer>

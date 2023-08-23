@@ -9,13 +9,13 @@ const Container = styled.div`
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 9999;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #25D366;
   transition: all 0.3s ease;
+  overflow: hidden;
   &:hover {
     transform: scale(1.1);
   }
@@ -23,11 +23,12 @@ const Container = styled.div`
 
 const IconContainer = styled.div`
   width: 35px;
-  height: auto;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+
 `
 
 function WhatsAppButton() {

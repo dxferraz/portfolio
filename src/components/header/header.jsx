@@ -4,6 +4,7 @@ import Colors from "../../constants/colors/Colors.jsx";
 import Logo from "./menu-components/logo/Logo.jsx";
 import Menu from "./menu-components/menu/Menu.jsx";
 import SocialIcons from "./menu-components/social-icons/SocialIcons.jsx";
+import LanguageSelector from "../LanguageSelector/LanguageSelector.jsx";
 
 const HeaderContainer = styled.header`
     width: 100%;
@@ -25,6 +26,7 @@ function Header() {
             <Logo />
             <Menu />
             <SocialIcons />
+            <LanguageSelector />
         </HeaderContainer>
     );
 };

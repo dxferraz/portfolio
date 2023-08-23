@@ -1,0 +1,16 @@
+{
+    "translation": {
+        "aboutMe": "Sobre mí",
+        "aboutMeDescription": "HTML, CSS, JavaScript son mi base, y siempre estoy explorando las últimas tendencias y frameworks, como [lista de frameworks que domino]. Mi enfoque es mantener un equilibrio entre la estabilidad comprobada y la innovación.",
+        "contact": "Contacto",
+        "frontEndDeveloper": "Desarrollador Front-End Apasionado por Crear Experiencias Digitales Memorables",
+        "getInTouch": "Contactar",
+        "iAmDanielFerraz": "¡Hola! Soy Daniel Ferraz, un entusiasta de la tecnología y un desarrollador front-end apasionado por transformar ideas creativas en experiencias digitales increíbles. Combinando diseño y código, me esfuerzo por crear soluciones elegantes y funcionales que dejen una marca duradera.",
+        "ifYouAreLookingForADeveloper": "Si estás buscando un desarrollador front-end comprometido en convertir ideas en realidad digital, estaré encantado de formar parte de tu proyecto. ¡Colaboremos para crear algo excepcional!",
+        "letsWorkTogether": "¡Trabajemos juntos!",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "start": "Inicio",
+        "selectYourLanguage": "Selecciona tu idioma"
+    }
+}

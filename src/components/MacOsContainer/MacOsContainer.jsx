@@ -2,10 +2,11 @@ import React from 'react'
 import { styled } from 'styled-components'
 import Title from '../title/Title'
 import MediumText from '../text-medium/MediumText'
+import Button from '../global/button/Button'
+import { useTranslation } from 'react-i18next'
 
 const Container = styled.div`
     width: 90%;
-    height: 300px;
     max-width: 1200px;
     background-color: #EEEEEE;
     border: 2px #CCCCCC;
@@ -55,19 +56,22 @@ const Content = styled.div`
 `
 
 function MacOsContainer(props) {
-  return (
-      <Container>
-          <MacOsBar>
-              <RedBall />
-              <YellowBall />
-              <GreenBall />
-          </MacOsBar>
-          <Content>
-              <Title>{props.title}</Title>
-              <MediumText style={{ textAlign: 'start' }}>{props.text}</MediumText>
-          </Content>
-    </Container>
-  )
+    const { t } = useTranslation()
+    return (
+        <Container>
+            <MacOsBar>
+                <RedBall />
+                <YellowBall />
+                <GreenBall />
+            </MacOsBar>
+            <Content>
+                <Title>{props.title}</Title>
+                <MediumText style={{ textAlign: 'start' }}>{props.text}</MediumText>
+                <br />
+                <Button text={t("getInTouch")} />
+            </Content>
+        </Container>
+    )
 }
 
 export default MacOsContainer

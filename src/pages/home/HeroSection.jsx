@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import AnimatedElement from "../../animations/elements/ElementsAnimation"
+import { useTranslation } from "react-i18next"
 import Colors from "../../constants/colors/Colors"
 
 const HeroSectionContainer = styled.div`
@@ -67,14 +68,15 @@ const ProfileImage = styled.img`
 `
 
 function HeroSection() {
+    const { t } = useTranslation();
     return (
         <HeroSectionContainer>
             <LeftHero >
                 <AnimatedElement>
-                    <Title>Desenvolvedor Front-End Apaixonado por Criar Experiências Digitais Memoráveis</Title>
+                    <Title>{t("frontEndDeveloper")}</Title>
                 </AnimatedElement>
                 <AnimatedElement delay={0.2}>
-                    <Paragraph>Olá! Eu sou o Daniel Ferraz, um entusiasta de tecnologia e desenvolvedor front-end apaixonado por transformar ideias criativas em experiências digitais incríveis. Combinando design e código, eu me esforço para criar soluções elegantes e funcionais que deixam uma marca duradoura.</Paragraph>
+                    <Paragraph>{t("iAmDanielFerraz")}</Paragraph>
                 </AnimatedElement>
             </LeftHero>
             <RightHero>

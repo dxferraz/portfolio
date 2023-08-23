@@ -1,5 +1,6 @@
 import React from 'react'
 import { styled } from 'styled-components'
+import { useTranslation } from 'react-i18next'
 import MacOsContainer from '../../components/MacOsContainer/MacOsContainer'
 import Button from '../../components/global/button/Button'
 
@@ -16,12 +17,11 @@ const Container = styled.div`
     align-items: center;
     justify-content: start;
 `
-
 function LevelsSection() {
+    const {t} = useTranslation()
     return (
         <Container>
-            <MacOsContainer title="Vamos Trabalhar Juntos!" text="Se você está buscando um desenvolvedor front-end comprometido em transformar ideias em realidade digital, ficarei emocionado em fazer parte do seu projeto. Vamos colaborar para criar algo excepcional!" />
-            <Button text="Entrar em contato"/>
+            <MacOsContainer title={t("letsWorkTogether")} text={t("ifYouAreLookingForADeveloper")} />
         </Container>
     )
 }
